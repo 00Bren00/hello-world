@@ -52,3 +52,17 @@ print(letters.index('z'))
 #list.count(obj): Returns a count of how many times an item occurs in a list
 #list.remove(obj): Removes an object from a list
 #list.reverse(): Reverses objects in a list
+
+numbers = list(range(10))
+print(numbers)#[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+#The range function creates a sequential list of numbers
+#The call to list is necessary because range by
+# itself creates a range object, and this must be converted to a list if you want to use it as one.
+
+numbers = list(range(3, 8))
+print(numbers)#[3, 4, 5, 6, 7]
+
+print(range(20) == range(0, 20))
+
+numbers = list(range(5, 20, 2))
+print(numbers)#[5, 7, 9, 11, 13, 15, 17, 19]
