@@ -4,4 +4,4 @@ print (not True)        #not operator is 'not'
 
 # see https://www.sololearn.com/Play/Python/
 # for more info on different operators and
-#operator precedence. 
+#operator precedence.
